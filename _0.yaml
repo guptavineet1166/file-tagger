@@ -1,0 +1,9 @@
+# Sample tag rules (expandable)
+
+rules:
+  - condition: "folder_name contains 'zip' or 'rar'"
+    tag: "#archive"
+  - condition: "folder_name contains 'python' or 'project'"
+    tag: "#project_codebase"
+  - condition: "folder_size_mb > 3000"
+    tag: "#large"

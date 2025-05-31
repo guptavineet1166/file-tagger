@@ -1,0 +1,7 @@
+rules:
+- condition: '''zip'' in folder_name or ''rar'' in folder_name'
+  tag: '#archive'
+- condition: '''python'' in folder_name or ''project'' in folder_name'
+  tag: '#project_codebase'
+- condition: folder_size_mb > 3000
+  tag: '#large'
