@@ -1,3 +1,22 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Input/output data folders
+input/
 output/
+
+# Sample or test data (can keep sample CSVs in a separate folder if needed)
+*.csv
+
+# Ignore YAML rule dumps (optional)
+*.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
